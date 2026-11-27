@@ -1,0 +1,140 @@
+/* Navigation */
+
+nav{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:15px;
+    padding:15px;
+    background:#0f172a;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    padding:10px 15px;
+    border-radius:5px;
+}
+
+nav a:hover{
+    background:#0284c7;
+}
+
+
+.projects-hero{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.projects-hero h1{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.projects-hero p{
+    max-width:900px;
+    margin:auto;
+    line-height:1.8;
+}
+
+.projects-grid{
+    max-width:1400px;
+    margin:60px auto;
+    padding:0 20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:30px;
+}
+
+.project-card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 8px 25px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+}
+
+.project-icon{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+.project-card h2{
+    color:#0f172a;
+    margin-bottom:15px;
+}
+
+.project-card p{
+    color:#64748b;
+    line-height:1.7;
+    margin-bottom:15px;
+}
+
+.project-card ul{
+    padding-left:20px;
+    color:#475569;
+}
+
+.project-card li{
+    margin-bottom:8px;
+}
+
+.projects-summary{
+    max-width:1200px;
+    margin:auto;
+    padding:40px 20px 80px;
+}
+
+.projects-summary h2{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.impact-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+}
+
+.impact-card{
+    background:#0284c7;
+    color:white;
+    text-align:center;
+    padding:30px;
+    border-radius:15px;
+}
+
+.impact-card h3{
+    font-size:2.5rem;
+    margin-bottom:10px;
+}
+
+@media(max-width:768px){
+
+    .projects-hero h1{
+        font-size:2.2rem;
+    }
+
+    .projects-grid{
+        grid-template-columns:1fr;
+    }
+}
+
+/* Footer */
+
+footer{
+    text-align:center;
+    background:#0f172a;
+    color:white;
+    padding:25px;
+    margin-top:80px;
+}
+
+
